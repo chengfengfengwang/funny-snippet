@@ -1,0 +1,24 @@
+{
+  "name": "funny-snippet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chengfengfengwang/funny-snippet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chengfengfengwang/funny-snippet/issues"
+  },
+  "homepage": "https://github.com/chengfengfengwang/funny-snippet#readme",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-static": "^5.0.0"
+  }
+}
