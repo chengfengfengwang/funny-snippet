@@ -17,3 +17,14 @@ document.addEventListener('input', function(e) {
         target.value = target.value.replace(/[^\d]/g, '')
     }
 })
+
+// 0到12的随机数
+Math.floor(Math.random()*13);
+// 3到12的随机数
+Math.floor(Math.random()*10) + 3
+// 或者
+Math.floor(Math.random() * (13 - 3)) + 3
+
+function random(min, max) {
+    return (Math.floor(Math.random() * (max - min + 1)) + min)
+}
